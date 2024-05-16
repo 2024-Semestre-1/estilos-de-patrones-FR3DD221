@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 // Interfaz Observable que define los métodos para agregar, eliminar y notificar observadores
 interface Observable {
     void addObserver(Observer observer);
